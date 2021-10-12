@@ -1,0 +1,31 @@
+.cover__text-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: auto auto;
+    width: 560px;
+    height: 250px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+
+@media screen and (max-width: 560px) {
+
+    .cover__text-block {
+        width: calc(100vw - 48px);
+        height: calc(100vw / (560 / 250));
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover__text-block {
+        width: 90vw;
+        padding: 0 5vw;
+    }
+}

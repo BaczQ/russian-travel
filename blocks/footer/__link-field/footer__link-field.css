@@ -1,0 +1,12 @@
+.footer__link-field {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    margin-right: 15px;
+}
+
+@media screen and (max-width: 475px) {
+    .footer__link-field {
+        margin: 0;
+    }
+}

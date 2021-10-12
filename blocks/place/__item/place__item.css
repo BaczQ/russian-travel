@@ -1,0 +1,7 @@
+.place__item {
+    -ms-flex-item-align: start;
+    -ms-grid-row-align: start;
+    align-self: start;
+    margin: 0;
+    padding: 0;
+}

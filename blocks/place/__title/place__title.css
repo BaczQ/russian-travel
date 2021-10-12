@@ -1,0 +1,28 @@
+.place__title {
+    font-size: 72px;
+    line-height: 76px;
+    font-weight: 900;
+}
+
+@media screen and (max-width: 1024px) {
+    .place__title {
+        font-size: calc(100vw * (15 / 128) - 48px);
+        line-height: calc(100vw * (15 / 128) - 44px);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place__title {
+        font-size: calc(100vw * (5 / 224) + 24.857px);
+        line-height: calc(100vw * (5 / 224) + 24.857px);
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__title {
+        font-size: 10vw;
+        line-height: 10.9375vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+}

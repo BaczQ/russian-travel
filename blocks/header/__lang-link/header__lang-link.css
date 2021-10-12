@@ -1,0 +1,27 @@
+.header__lang-link {
+    margin-left: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+
+
+.header__lang-link:hover {
+    text-decoration: underline;
+}
+
+
+@media screen and (max-width: 320px) {
+
+    .header__lang-link {
+        font-size: calc(100vw / 17.778);
+        line-height: calc(100vw / 16);
+        margin-left: calc(100vw / 17.8);
+    }
+
+    .header__lang-link:first-child {
+        margin-left: calc(100vw / 32);
+    }
+}

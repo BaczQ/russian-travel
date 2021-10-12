@@ -1,0 +1,18 @@
+.header__logo {
+    width: 176px;
+    height: 52px;
+    background-image: url(../../../images/header/__logo/header__logo.svg);
+    background-size: 100% 100%;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start
+}
+
+
+@media screen and (max-width: 320px) {
+    .header__logo {
+        height: calc(100vw / 7.619);
+        width: calc(100vw / 2.254);
+    }
+
+}
