@@ -5,7 +5,6 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    align-items: stretch;
     justify-content: space-between;
     align-items: flex-end;
 }
