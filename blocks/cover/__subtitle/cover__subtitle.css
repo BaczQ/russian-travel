@@ -7,8 +7,8 @@
     line-height: 22px;
     font-weight: 400;
     text-align: center;
-    z-index: 10;
     color: #fff;
+    z-index: 3;
 }
 
 @media screen and (max-width: 560px) {
@@ -23,8 +23,8 @@
 @media screen and (max-width: 320px) {
     .cover__subtitle {
         width: 100%;
-        min-height: 15vw;
-        font-size: 4.375vw;
+        min-height: 16vw;
+        font-size: 4.33vw;
         line-height: 5vw;
     }
 }

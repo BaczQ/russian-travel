@@ -17,14 +17,14 @@
 @media screen and (max-width: 768px) {
     .lead__title {
         font-size: calc(100vw / 8);
-        line-height: calc(100vw / 8 + 5px);
+        line-height: calc(100vw / 8 + 5.7px);
         margin-top: 48px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .lead__title {
-        font-size: calc(100vw / 8);
+        font-size: calc(100vw / 7 - 5px);
         line-height: calc(100vw / 7);
         margin-top: calc(100vw / 6.666);
         margin-left: calc(100vw / 20);

@@ -2,8 +2,8 @@
     display: inline;
     margin: 0;
     padding: 0;
-    margin-right: 15px;
-    background-color: blue;
+    flex-grow: 1;
+    margin-right: 19px;
 }
 
 @media screen and (max-width: 475px) {
