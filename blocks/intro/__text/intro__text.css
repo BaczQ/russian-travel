@@ -4,7 +4,17 @@
     font-weight: 400;
     margin: 39px 0 0 0;
     padding: 0;
+    width: 690px;
 }
+
+@media screen and (max-width: 768px) {
+
+    .intro__text {
+        width: 100%;
+    }
+
+}
+
 
 @media screen and (max-width: 320px) {
 
@@ -14,3 +24,5 @@
         font-size: 5vw;
     }
 }
+
+
