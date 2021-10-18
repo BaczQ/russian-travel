@@ -3,7 +3,6 @@
     flex-direction: column;
     margin: auto auto;
     max-width: 560px;
-    min-height: 250px;
     justify-content: space-between;
 }
 
@@ -12,7 +11,7 @@
 
     .cover__text-block {
         width: calc(100vw - 48px);
-        min-height: calc(100vw / (560 / 250));
+
     }
 }
 

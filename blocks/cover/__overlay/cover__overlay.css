@@ -20,14 +20,14 @@
     width: 100%;
     min-height: 100%;
     background-color: #2A2C2F;
-    opacity: 30%;
+    opacity: .3;
     transition-property: opacity;
     transition-duration: 0.15s;
     z-index: -1;
 } 
 
 .cover__overlay:hover::before { 
-    opacity: 70%;
+    opacity: .8;
 } 
 
 @media screen and (max-width: 1184px) {
